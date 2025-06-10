@@ -31,8 +31,8 @@ if data == "Home" :
     if st.button("Submit") :
         st.write(name,mailId,number,password) 
         st.success("Data inserted syccessfully")  
-        #st.balloons()
-        #st.snow()
+        st.balloons()
+        st.snow()
     st.metric(label="python",value=20,delta="30%")
     st.number_input("Integer",max_value=0)
     #st.radio("select your option",captions=["Male","Female",index="None"])
